@@ -1,0 +1,29 @@
+@charset 'UTF-8';
+
+// 1. Mixins
+@import "mixins/core";
+@import "mixins/clearfix";
+@import "mixins/breakpoints";
+
+// 2. Config
+@import "config/variables";
+@import "config/helper";
+@import "config/fonts";
+@import "config/spacing";
+
+// 3. Vendors
+@import "plugins/bootstrap/bootstrap";
+
+// 4. Base
+@import "base/base";
+@import "base/type";
+@import "base/layout";
+@import "base/header";
+@import "base/footer";
+
+// 5. Component
+@import "components/button";
+@import "components/carousel";
+
+// 6. Page
+@import "pages/index";

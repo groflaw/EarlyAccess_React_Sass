@@ -1,0 +1,22 @@
+.footer {
+  background-color: #2e1c51;
+  height: 200px;
+  text-align: center;
+  &_logo {
+    display: block;
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+  }
+  &__links {
+    &_item {
+      margin: 10px 10px 0;
+    }
+  }
+  &__text {
+    background-color: #4f2b83;
+    padding: 20px 0;
+    color: white;
+  }
+}
